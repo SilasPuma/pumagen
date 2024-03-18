@@ -38,7 +38,13 @@ cd PumaGen
 3. Run the script:
 
 ```bash
-python PumaGen.py
+python generator.py
+```
+
+4. Validate your codes:
+
+```bash
+python validator.py
 ```
 
 ## Disclaimer
