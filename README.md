@@ -26,7 +26,7 @@ PumaGen is a simple code generator designed to create valid Apple App Store gift
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/PumaGen.git
+git clone https://github.com/silaspuma/PumaGen.git
 ```
 
 2. Navigate to the project directory:
