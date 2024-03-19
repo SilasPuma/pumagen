@@ -1,16 +1,22 @@
-import requests
+import aiohttp
+import asyncio
 
-def check_app_store_codes(codes):
+async def check_app_store_code(session, code):
+    url = f"https://buy.itunes.apple.com/verifyReceipt?receipt={code.strip()}"
+    async with session.post(url) as response:
+        if response.status == 200:
+            return code.strip()
+
+async def check_app_store_codes(codes):
     valid_codes = []
-    invalid_codes = []
 
-    for code in codes:
-        url = f"https://buy.itunes.apple.com/verifyReceipt?receipt={code.strip()}"
-        response = requests.post(url)
-        if response.status_code == 200:
-            valid_codes.append(code)
-        else:
-            invalid_codes.append(code)
+    async with aiohttp.ClientSession() as session:
+        tasks = [check_app_store_code(session, code) for code in codes]
+        for result in asyncio.as_completed(tasks):
+            valid_code = await result
+            if valid_code:
+                valid_codes.append(valid_code)
+                print(f"Valid code: {valid_code}")
 
     return valid_codes
 
@@ -19,7 +25,7 @@ with open("apple.txt", "r") as file:
     codes_to_check = file.readlines()
 
 # Check the validity of codes
-valid_codes = check_app_store_codes(codes_to_check)
+valid_codes = asyncio.run(check_app_store_codes(codes_to_check))
 
 # Write valid codes to apple-valid.txt
 with open("apple-valid.txt", "w") as file:
