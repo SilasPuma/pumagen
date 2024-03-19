@@ -21,7 +21,7 @@ async def check_app_store_codes(codes):
     return valid_codes
 
 # Read codes from apple.txt
-with open("apple.txt", "r") as file:
+with open("generated_codes.txt", "r") as file:
     codes_to_check = file.readlines()
 
 # Check the validity of codes
