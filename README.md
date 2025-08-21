@@ -1,4 +1,4 @@
-# PumaGen - Apple App Store Gift Card Code Generator
+# PumaGen
 
 lmao this is obviously ai - one of my older repos
 
