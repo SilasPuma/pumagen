@@ -1,8 +1,7 @@
 # PumaGen
 
----
-
 The BEST App Store gift card generator!
+
 ## Usage
 
 1. Clone the repository to your local machine.
