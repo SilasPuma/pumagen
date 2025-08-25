@@ -1,66 +1,51 @@
 # PumaGen
 
-lmao this is obviously ai - one of my older repos
+---
 
-PumaGen is a simple code generator designed to create valid Apple App Store gift card codes. This tool is useful for generating gift card codes for personal use, gifting, or testing purposes.
-We do not promise that any of the generated codes are valid, use at your own risk.
-
-## Features
-
-- **Apple App Store Codes**: Generate valid gift card codes for the Apple App Store.
-- **Easy to Use**: Simple interface for generating codes quickly.
-- **Customization**: Specify the number and type of codes to generate.
-- **Security**: Codes are generated using secure algorithms to ensure validity and uniqueness.
-
+The BEST App Store gift card generator!
 ## Usage
 
 1. Clone the repository to your local machine.
 2. Run the `generator.py` script.
-3. Follow the prompts to specify the number and type of codes to generate.
-4. Generated codes will be displayed in the console output.
-5. After that, use `validator.py` to validate your codes.
+3. Follow the prompts to choose how many codes to generate.
+4. The script will generate a bunch of codes.
+6. After you have the codes generated, use `validator.py` in the same folder to validate the codes (tries to redeem at apple and if it fails, the code is invalid)
 
 ## Requirements
 
-- Python 3.x
+- python 3
+- knowledge
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/silaspuma/PumaGen.git
+```cmd
+git clone https://github.com/SilasPuma/pumagen
 ```
 
 2. Navigate to the project directory:
 
-```bash
+```cmd
 cd PumaGen
 ```
 
 3. Run the script:
 
-```bash
+```cmd
 python generator.py
 ```
 
 4. Validate your codes:
 
-```bash
+```cmd
 python validator.py
 ```
 
 ## Disclaimer
 
-This tool is for educational and testing purposes only. Do not use generated codes for any illegal activities. The developers of PumaGen are not responsible for any misuse of the generated codes.
+This tool is for educational and testing purposes only. Most codes DO NOT work because of how hard it is to generate a working code. pls dont use the codes for any illegal activities. I am not responsible for what you do with these codes.
 
-## Contributions
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 enjoyyyyy
