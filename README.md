@@ -42,7 +42,7 @@ python validator.py
 
 ## Disclaimer
 
-This tool is for educational and testing purposes only. Most codes DO NOT work because of how hard it is to generate a working code. pls dont use the codes for any illegal activities. I am not responsible for what you do with these codes. Please don't open an issue about it not generating any valid codes because while it IS possible, it takes a long time to actually generate one. :)
+This tool is for educational and testing purposes only. Most codes DO NOT work because of how hard it is to generate a working code. pls dont use the codes for any illegal activities. I am not responsible for what you do with these codes. Please don't open an issue about it not generating any valid codes because while it IS possible, it takes a long time to actually generate one.
 
 
 ---
