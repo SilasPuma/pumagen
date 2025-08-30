@@ -1,6 +1,5 @@
 ![PumaGen Banner](banner.png)
 
-The BEST App Store gift card generator!
 
 ## Usage
 
