@@ -1,6 +1,7 @@
 ![PumaGen Banner](banner.png)
 
 
+## does not work atm as apple discontinued their api to check gift cards :(
 ## Usage
 
 1. Clone the repository to your local machine.
